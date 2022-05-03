@@ -4,17 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle:prod": "webpack --mode production",
+    "bundle:dev": "webpack --mode development"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rachitiitr/webpack101.git"
   },
-  "keywords": ["nodejs", "webpack", "tutorial", "javascript"],
+  "keywords": [
+    "nodejs",
+    "webpack",
+    "tutorial",
+    "javascript"
+  ],
   "author": "Rachit Jain",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rachitiitr/webpack101/issues"
   },
-  "homepage": "https://github.com/rachitiitr/webpack101#readme"
+  "homepage": "https://github.com/rachitiitr/webpack101#readme",
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
 }
