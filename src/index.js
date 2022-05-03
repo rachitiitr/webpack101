@@ -7,5 +7,8 @@ console.log(add(13,4));
 console.log(mult(13,4));
 console.log(mult(13,4));
 
-const WelcomeMessageDiv = WelcomeMessage({person: "rachit"});
-console.log(WelcomeMessageDiv);
+const WelcomeMessageText = WelcomeMessage({person: "rachit"});
+
+const WelcomeMessageDiv = document.createElement('div');
+WelcomeMessageDiv.innerText = WelcomeMessageText;
+document.body.appendChild(WelcomeMessageDiv);
