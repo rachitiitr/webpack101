@@ -6,5 +6,5 @@ import "./WelcomeMessage.css";
  * @returns 
  */
 export function WelcomeMessage({person}) {
-    return `Hi ${person.toUpperCase()}, great to see you learn Webpack!`;
+    return <div>Hi {person.toUpperCase()}, great to see you learn Webpack!</div>
 }
