@@ -8,7 +8,10 @@ module.exports = {
         test: /\.css?$/,
         use: [MiniCssExtractPlugin.loader, 'css-loader']
       }
-    ]
+    ],
+  },
+  resolve: {
+    extensions: ['.ts', '.js'],
   },
   plugins: [new MiniCssExtractPlugin(), new HtmlWebpackPlugin()]
 }
