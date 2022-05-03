@@ -1,3 +1,5 @@
+import "./WelcomeMessage.css";
+
 /**
  * 
  * @param {{person: string}} param0 
