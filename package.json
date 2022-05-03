@@ -1,0 +1,20 @@
+{
+  "name": "webpack101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachitiitr/webpack101.git"
+  },
+  "keywords": ["nodejs", "webpack", "tutorial", "javascript"],
+  "author": "Rachit Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rachitiitr/webpack101/issues"
+  },
+  "homepage": "https://github.com/rachitiitr/webpack101#readme"
+}
