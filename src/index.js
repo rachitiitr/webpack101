@@ -1,3 +1,4 @@
+import React from 'react';
 import {add, mult} from "./math";
 import { prefixDecorate } from "./stringUtil";
 import { WelcomeMessage } from "./WelcomeMessage";
