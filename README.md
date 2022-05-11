@@ -3,7 +3,7 @@ Webpack might sound very complex to many frontend developers who are still learn
 
 This is a fun tutorial that makes you no longer scared of Webpack and get you started with all the basics involved.
 
-Check the tutorial on YouTube [here](https://youtube.com/rachitjain). 
+Check the tutorial on YouTube [here](https://www.youtube.com/watch?v=aT1rkp1UJ00). 
 
 # About Author - Rachit Jain
 Rachit is a Software Developer with expertise in ReactJS, JavaScript, C++ and Python.
